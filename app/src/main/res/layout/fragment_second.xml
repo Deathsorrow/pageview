@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:text="         小熊猫（学名：Ailurus fulgens）外形像猫，但较猫肥大，全身红褐色。圆脸，吻部较短，脸颊有白色斑纹。耳大，直立向前。四肢粗短，为黑褐色。尾长、较粗而蓬松，并有12条红暗相间的环纹；尾尖深褐色。蹠行性；前后足均具5趾；无性二型。头骨高而圆；听泡相对扁平；眶后突不完全发育或缺失；矢状嵴低；具翼碟骨；上腭高耸拱形，中间凹陷；中翼骨腭缢缩；冠突明显呈钩状。
+
+         小熊猫平日栖居于大的树洞或石洞和岩石缝中。早晚出来活动觅食，白天多在洞里或大树的荫深处睡觉。睡时好把头蜷缩在四肢中，前肢抱住头部，以尾覆盖在身上。有时两脚下垂高卧于树枝上。善于攀爬，往往能爬到高而细的树枝上休息或躲避敌害。" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_vertical|bottom"
+        android:background="@mipmap/lesser1"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_gravity="center_vertical|bottom"
+        android:background="@mipmap/lesser2"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="260dp"
+        android:layout_gravity="center_vertical|bottom"
+        android:background="@mipmap/lesser3"/>
+
+</FrameLayout>

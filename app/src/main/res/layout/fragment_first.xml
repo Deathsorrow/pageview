@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="         大熊猫(学名:Ailuropoda melanoleuca):属于食肉目、熊科、大熊猫亚科和大熊猫属唯一的哺乳动物，头躯长1.2-1.8米，尾长10-12厘米。体重80-120千克，最重可达180千克，体色为黑白两色，它有着圆圆的脸颊，大大的黑眼圈，胖嘟嘟的身体，标志性的内八字的行走方式，也有解剖刀般锋利的爪子。是世界上最可爱的动物之一。
+
+         大熊猫已在地球上生存了至少800万年，被誉为活化石和中国国宝，世界自然基金会的形象大使，是世界生物多样性保护的旗舰物种。据第三次全国大熊猫野外种群调查，全世界野生大熊猫不足1600只，属于中国国家一级保护动物。截止2011年10月，全国圈养大熊猫数量为333只。大熊猫最初是吃肉的，经过进化，99%的食物都是竹子了，但牙齿和消化道还保持原样，仍然划分为食肉目，发怒时危险性堪比其它熊种。野外大熊猫的寿命为18-20岁，圈养状态下可以超过30岁。
+
+         截至2018年11月，圈养大熊猫种群数量再创新高，全球圈养数量达到548只。
+
+         大熊猫是中国特有种，现存的主要栖息地是中国四川、陕西和甘肃的山区。" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_vertical|bottom"
+        android:background="@mipmap/panda1"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_gravity="center_vertical|bottom"
+        android:background="@mipmap/panda2"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="260dp"
+        android:layout_gravity="center_vertical|bottom"
+        android:background="@mipmap/panda3"/>
+
+</FrameLayout>

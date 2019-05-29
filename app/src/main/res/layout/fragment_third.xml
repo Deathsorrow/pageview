@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="         浣熊（学名：Procyon lotor），原产自北美洲，现为无危物种。浣熊特征为眼睛周围有一圈深色皮毛，体型较小，体长约40到70厘米。因其常在河边捕食鱼类让人误以为它在水中浣洗食物，故名浣熊。真相是，浣熊的爪子非常灵敏，上面的触觉细胞相当丰富，在与水接触后，爪子上的慢速适应感受器的灵敏度提高了，浣熊可以依靠爪子测量食物的重量、尺寸、材质以及温度。
+
+         浣熊原产于伯利兹，加拿大，哥斯达黎加，萨尔瓦多，危地马拉，洪都拉斯，墨西哥，尼加拉瓜，巴拿马，美国等北美地区。 "/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_vertical|bottom"
+        android:background="@mipmap/raccoon1"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_gravity="center_vertical|bottom"
+        android:background="@mipmap/raccoon2"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="260dp"
+        android:layout_gravity="center_vertical|bottom"
+        android:background="@mipmap/raccoon3"/>
+
+</FrameLayout>
